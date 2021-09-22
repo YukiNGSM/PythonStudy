@@ -1,0 +1,7 @@
+n=int(input('国語'))
+m=int(input('数学'))
+l=int(input('英語'))
+max=max(n,m,l)
+if n+m+l>=210 and max>=85: print('合格です')
+elif n+m+l>=230: print('合格です')
+else: print('補講対象')

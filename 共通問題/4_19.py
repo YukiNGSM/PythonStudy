@@ -1,0 +1,7 @@
+print('0～100 までの得点（整数値）を２つ入力してください')
+m=int(input('１つ目の得点：'))
+n=int(input('２つ目の得点：'))
+max=max(m,n)
+if m>=80 and n>=80: print('合格です')
+elif max>=80: print('補欠合格です')
+else: print('不合格です')

@@ -1,0 +1,5 @@
+print('BMI値を求めます')
+cm=int(input('身長(cm):'))
+kg=int(input('体重(Kg):'))
+BMI=str(kg/((cm/100)**2))
+print('BMI値 = ',BMI)

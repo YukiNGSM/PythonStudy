@@ -1,0 +1,7 @@
+print('0～100 までの値（整数値）を２つ入力してください')
+n=int(input('１つ目の整数値：'))
+m=int(input('２つ目の整数値：'))
+l=int(input('３つ目の整数値：'))
+max=max(n,m,l)
+print('最大の値は',max,'です')
+if n==m==l: print('同じ値です')

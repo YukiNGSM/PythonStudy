@@ -1,0 +1,6 @@
+word=input('文字の入力:')
+num=input('整数の入力：')
+min=input('少数の入力:')
+print('入力された文字=',word)
+print('入力された整数=',num)
+print('入力された少数=',min)

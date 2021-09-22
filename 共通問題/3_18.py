@@ -1,0 +1,7 @@
+print('税込み価格を求めます')
+price=int(input('定価:'))
+tax=int(input('消費税率'))
+plustax=str(price+(price//10))
+print('定価:',price)
+print('税率:',tax)
+print('税込み価格:',plustax)

@@ -1,0 +1,5 @@
+print('整数値を入力してください')
+n=int(input(''))
+if n>0: print('正の数です')
+elif n<0: print('負の数です')
+else: print('')
